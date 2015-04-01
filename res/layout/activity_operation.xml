@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_operation" >
+
+    <Button
+        android:id="@+id/btn_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_start_game" />
+
+    <Button
+        android:id="@+id/btn_rank_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_start_game"
+        android:layout_below="@+id/btn_start_game"
+        android:layout_marginTop="@dimen/view_margin"
+        android:background="@drawable/btn_rank_game" />
+
+    <Button
+        android:id="@+id/btn_set_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_rank_game"
+        android:layout_below="@+id/btn_rank_game"
+        android:layout_marginTop="@dimen/view_margin"
+        android:background="@drawable/btn_set_game" />
+
+    <Button
+        android:id="@+id/btn_help_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_set_game"
+        android:layout_below="@+id/btn_set_game"
+        android:layout_marginTop="@dimen/view_margin"
+        android:background="@drawable/btn_help_game" />
+
+    <Button
+        android:id="@+id/btn_about_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_help_game"
+        android:layout_below="@+id/btn_help_game"
+        android:layout_marginTop="@dimen/view_margin"
+        android:background="@drawable/btn_about_game" />
+
+    <Button
+        android:id="@+id/btn_exit_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_about_game"
+        android:layout_below="@+id/btn_about_game"
+        android:layout_marginTop="@dimen/view_margin"
+        android:background="@drawable/btn_exit_game" />
+
+</RelativeLayout>
